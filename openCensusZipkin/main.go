@@ -9,10 +9,9 @@ import (
 	"time"
 
 	"contrib.go.opencensus.io/exporter/zipkin"
-	"go.opencensus.io/trace"
-
 	openzipkin "github.com/openzipkin/zipkin-go"
 	zipkinHTTP "github.com/openzipkin/zipkin-go/reporter/http"
+	"go.opencensus.io/trace"
 )
 
 func main() {
