@@ -34,6 +34,8 @@ func Init(service string) (opentracing.Tracer, io.Closer) {
 	return tracer, closer
 }
 
+//RPC jaeger
+// go run hello.go Icarus
 func main() {
 	if len(os.Args) != 2 {
 		panic("ERROR: Expecting one argument")
