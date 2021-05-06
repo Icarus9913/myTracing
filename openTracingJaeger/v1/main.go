@@ -11,6 +11,7 @@ import (
 	"github.com/uber/jaeger-client-go/config"
 )
 
+//simple jaeger
 func Init(service string) (opentracing.Tracer, io.Closer) {
 	cfg := &config.Configuration{
 		ServiceName: service,
