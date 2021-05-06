@@ -34,7 +34,7 @@ func Init(service string) (opentracing.Tracer, io.Closer) {
 	return tracer, closer
 }
 
-
+//baggage jaeger
 // go run hello.go Icarus Bonjour
 func main() {
 	if len(os.Args) != 3 {
