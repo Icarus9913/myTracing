@@ -29,6 +29,7 @@ func Init(service string) (opentracing.Tracer, io.Closer) {
 	return tracer, closer
 }
 
+//simple jaeger
 func main() {
 	if len(os.Args) != 2 {
 		panic("ERROR: Expecting one argument")
